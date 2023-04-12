@@ -10,7 +10,7 @@ def open_browser():
     yield browser
 
 
-
+# ...
 @pytest.fixture(scope='session')
 def size_browser():
     browser.config.window_width = 700
